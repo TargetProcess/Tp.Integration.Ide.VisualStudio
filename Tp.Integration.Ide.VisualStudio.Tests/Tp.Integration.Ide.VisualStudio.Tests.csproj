@@ -79,11 +79,11 @@
     </Reference>
     <Reference Include="nunit.framework, Version=2.4.7.0, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Libs\NUnit\framework\nunit.framework.dll</HintPath>
+      <HintPath>..\libs\framework\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="Rhino.Mocks, Version=3.3.0.906, Culture=neutral, PublicKeyToken=0b3305902db7183f, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Libs\Rhino.Mocks.dll</HintPath>
+      <HintPath>..\libs\Rhino.Mocks.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
@@ -96,7 +96,7 @@
     <Reference Include="System.Xml" />
     <Reference Include="Tp.Service.Proxies, Version=2.8.4.6875, Culture=neutral, PublicKeyToken=ee2a1130677e5334, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Libs\Tp.Service.Proxies.dll</HintPath>
+      <HintPath>..\libs\Tp.Service.Proxies.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
