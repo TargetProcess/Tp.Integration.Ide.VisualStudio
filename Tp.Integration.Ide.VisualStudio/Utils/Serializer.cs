@@ -14,7 +14,7 @@ namespace Tp.Integration.Ide.VisualStudio.Utils {
 		/// Deserializes object of the specified Type from XML document 
 		/// read from the specified text reader.
 		/// </summary>
-		/// <typeparam name="T">Type of the deserialized object.</param>
+		/// <typeparam name="T">Type of the deserialized object.</typeparam>
 		/// <param name="textReader">Text reader from which to read XML document from which to deserialize object.</param>
 		/// <returns>Object deserialized from XML document read from the text reader.</returns>
 		public static T Deserialize<T>(TextReader textReader) {
@@ -24,7 +24,7 @@ namespace Tp.Integration.Ide.VisualStudio.Utils {
 		/// <summary>
 		/// Deserializes object of the specified Type from the specified XML document.
 		/// </summary>
-		/// <typeparam name="T">Type of the deserialized object.</param>
+		/// <typeparam name="T">Type of the deserialized object.</typeparam>
 		/// <param name="xml">XML document from which to deserialize object.</param>
 		/// <returns>Object deserialized from the XML document.</returns>
 		public static T Deserialize<T>(string xml) {
@@ -35,7 +35,7 @@ namespace Tp.Integration.Ide.VisualStudio.Utils {
 		/// Serializes the specified object of specified type into XML document 
 		/// written to the specified text writer.
 		/// </summary>
-		/// <typeparam name="T">Type of the object being serialized as XML document.</param>
+		/// <typeparam name="T">Type of the object being serialized as XML document.</typeparam>
 		/// <param name="item">Object being serialized as XML document.</param>
 		/// <param name="textWriter">Text writer into which XML document to be written.</param>
 		public static void Serialize<T>(T item, TextWriter textWriter) {
@@ -45,7 +45,7 @@ namespace Tp.Integration.Ide.VisualStudio.Utils {
 		/// <summary>
 		/// Serializes the specified object of specified type into XML document.
 		/// </summary>
-		/// <typeparam name="T">Type of the object being serialized as XML document.</param>
+		/// <typeparam name="T">Type of the object being serialized as XML document.</typeparam>
 		/// <param name="item">Object being serialized as XML document.</param>
 		/// <returns>XML document containing serialized object representation.</returns>
 		public static string Serialize<T>(T item) {

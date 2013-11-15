@@ -27,6 +27,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_48C4A00CA415BAA087BC35BBC26EB286"
+        "OwnerKey" = "8:_CC57E189A8A04F32A43610DD7406F94C"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_580009A73EC242F2D1D4A03DB4B11DAB"
         "OwnerKey" = "8:_CC57E189A8A04F32A43610DD7406F94C"
         "MsmSig" = "8:_UNDEFINED"
@@ -39,6 +45,18 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_7D19804C6BC63759C47F956ED48CBFFC"
+        "OwnerKey" = "8:_CC57E189A8A04F32A43610DD7406F94C"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_7D19804C6BC63759C47F956ED48CBFFC"
+        "OwnerKey" = "8:_48C4A00CA415BAA087BC35BBC26EB286"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_825B1E8DF944EB973306465AF899F9A6"
         "OwnerKey" = "8:_CC57E189A8A04F32A43610DD7406F94C"
         "MsmSig" = "8:_UNDEFINED"
@@ -47,18 +65,6 @@
         {
         "MsmKey" = "8:_A44D0FF506EE814D1C44BAFBC06E546B"
         "OwnerKey" = "8:_D262C458FF8761F2E413C1414C3B1730"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_A4C7650BCEC75C8D95532D122EF14932"
-        "OwnerKey" = "8:_CC57E189A8A04F32A43610DD7406F94C"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_A4C7650BCEC75C8D95532D122EF14932"
-        "OwnerKey" = "8:_E548CADC5A544F3A8E55FE90AB63B9DF"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -101,12 +107,6 @@
         {
         "MsmKey" = "8:_DABF28C874382EB8FB3FFA0124595ACA"
         "OwnerKey" = "8:_825B1E8DF944EB973306465AF899F9A6"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_E548CADC5A544F3A8E55FE90AB63B9DF"
-        "OwnerKey" = "8:_CC57E189A8A04F32A43610DD7406F94C"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -154,13 +154,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_E548CADC5A544F3A8E55FE90AB63B9DF"
+        "OwnerKey" = "8:_48C4A00CA415BAA087BC35BBC26EB286"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_A4C7650BCEC75C8D95532D122EF14932"
+        "OwnerKey" = "8:_7D19804C6BC63759C47F956ED48CBFFC"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -325,7 +325,7 @@
                 {
                 "Name" = "8:.NET Framework"
                 "Message" = "8:[VSDNETMSG]"
-                "FrameworkVersion" = "8:3.5.21022    "
+                "FrameworkVersion" = "8:3.5.21022   "
                 "AllowLaterVersions" = "11:FALSE"
                 "InstallUrl" = "8:http://go.microsoft.com/fwlink/?LinkId=76617"
                 }
@@ -371,6 +371,37 @@
             "Register" = "3:1"
             "Exclude" = "11:TRUE"
             "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_48C4A00CA415BAA087BC35BBC26EB286"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Tp.Service.Proxies, Version=2.15.0.15001, Culture=neutral, PublicKeyToken=ee2a1130677e5334, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_48C4A00CA415BAA087BC35BBC26EB286"
+                    {
+                    "Name" = "8:Tp.Service.Proxies.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Tp.Service.Proxies.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_FE598CBF1BF044AF957BBFAC1C8C861E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_580009A73EC242F2D1D4A03DB4B11DAB"
@@ -424,6 +455,37 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_7D19804C6BC63759C47F956ED48CBFFC"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Microsoft.Web.Services3, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_7D19804C6BC63759C47F956ED48CBFFC"
+                    {
+                    "Name" = "8:Microsoft.Web.Services3.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Microsoft.Web.Services3.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_FE598CBF1BF044AF957BBFAC1C8C861E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_825B1E8DF944EB973306465AF899F9A6"
             {
             "AssemblyRegister" = "3:1"
@@ -472,37 +534,6 @@
             "PackageAs" = "3:1"
             "Register" = "3:1"
             "Exclude" = "11:TRUE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_A4C7650BCEC75C8D95532D122EF14932"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Microsoft.Web.Services3, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_A4C7650BCEC75C8D95532D122EF14932"
-                    {
-                    "Name" = "8:Microsoft.Web.Services3.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Microsoft.Web.Services3.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_FE598CBF1BF044AF957BBFAC1C8C861E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
@@ -585,37 +616,6 @@
             "PackageAs" = "3:1"
             "Register" = "3:1"
             "Exclude" = "11:TRUE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_E548CADC5A544F3A8E55FE90AB63B9DF"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Tp.Service.Proxies, Version=2.15.0.15001, Culture=neutral, PublicKeyToken=ee2a1130677e5334, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_E548CADC5A544F3A8E55FE90AB63B9DF"
-                    {
-                    "Name" = "8:Tp.Service.Proxies.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Tp.Service.Proxies.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_FE598CBF1BF044AF957BBFAC1C8C861E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
@@ -738,7 +738,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:TargetProcess Visual Studio Add-In"
         "ProductCode" = "8:{F6DF0ADB-FB76-4242-8721-8CADA794DA96}"
-        "PackageCode" = "8:{10839829-654C-431F-A3C3-BDF8344087A7}"
+        "PackageCode" = "8:{22C06571-0B24-4273-A0F5-33AE18D4BE4D}"
         "UpgradeCode" = "8:{DB2DDC96-BECE-4ACE-8AAA-9EEA57109DA6}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -1269,7 +1269,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_CC57E189A8A04F32A43610DD7406F94C"
             {
-            "SourcePath" = "8:..\\Tp.Integration.Ide.VisualStudio\\obj\\Debug\\Tp.Integration.Ide.VisualStudio.dll"
+            "SourcePath" = "8:..\\Tp.Integration.Ide.VisualStudio\\obj\\Release\\Tp.Integration.Ide.VisualStudio.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_FE598CBF1BF044AF957BBFAC1C8C861E"
