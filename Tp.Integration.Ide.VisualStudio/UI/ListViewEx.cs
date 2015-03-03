@@ -1,5 +1,5 @@
 ﻿// 
-// Copyright (c) 2005-2010 TargetProcess. All rights reserved.
+// Copyright (c) 2005-2015 TargetProcess. All rights reserved.
 // TargetProcess proprietary/confidential. Use is subject to license terms. Redistribution of this file is strictly forbidden.
 // 
 using System;
@@ -283,12 +283,11 @@ namespace Tp.Integration.Ide.VisualStudio.UI
 			bitmapGraphics.DrawRectangle(Pens.Gray, 0, 0, WIDTH + 1, HEIGHT - 1);
 			bitmapGraphics.FillRectangle(Brushes.White, 1, 1, WIDTH, HEIGHT - 2);
 
-			if (_rank <= 0 || _maxRank <= 0)
-				return Image.FromHbitmap(bitmap.GetHbitmap());
-
-			var width = (WIDTH * Rank) / MaxRank;
-			bitmapGraphics.FillRectangle(Brushes.GreenYellow, 1, 1, width, HEIGHT - 2);
-			return Image.FromHbitmap(bitmap.GetHbitmap());
+			if (_rank > 0 && _maxRank > 0)
+			{
+				bitmapGraphics.FillRectangle(Brushes.GreenYellow, 1, 1, (WIDTH * Rank) / MaxRank, HEIGHT - 2);
+			}
+			return bitmap;
 		}
 	}
 }
